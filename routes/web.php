@@ -27,7 +27,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('/', 'HomeController@paymentView');
+Route::get('/', 'HomeController@paymentView');
 
 Auth::routes();
 

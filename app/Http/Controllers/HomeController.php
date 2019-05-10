@@ -192,7 +192,7 @@ class HomeController extends Controller
 
         $paymentSchedule = new AnetAPI\PaymentScheduleType();
         $paymentSchedule->setInterval($interval);
-        $paymentSchedule->setStartDate(new DateTime('2019-01-01'));
+        $paymentSchedule->setStartDate(new DateTime('2019-06-01'));
         $paymentSchedule->setTotalOccurrences("12");
         $paymentSchedule->setTrialOccurrences("1");
 
